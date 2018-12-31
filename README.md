@@ -140,7 +140,7 @@ Pull requests are welcome!
 
 ## Notes and Common Issues
 
-  * [TCMalloc](http://goog-perftools.sourceforge.net/doc/tcmalloc.html) seems to improve
+  * [TCMalloc](https://github.com/gperftools/gperftools) seems to improve
     training speed and avoids occasional slowdowns seen with the default allocator. You
     can enable it by installing it and setting `LD_PRELOAD=/usr/lib/libtcmalloc.so`. With TCMalloc,
     you can get around 1.1 sec/step on a GTX 1080Ti.
